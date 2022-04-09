@@ -1,0 +1,185 @@
+body {
+    min-width:100%;
+    margin:0 auto;
+    background-color: rgb(236, 213, 161);
+    
+}
+
+.main {
+    max-width:900px;
+    margin:0 auto;
+}
+
+header {
+    padding: 20px 30px;
+    max-width: 940px;
+    margin: auto;
+}
+
+nav ul li a:hover {
+	background: #FFF;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+    position: center;
+}
+
+nav ul li a {
+    background: #EEE;
+    padding: 2px 10px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #444;
+    border-radius: 10px;
+}
+
+#bannerImage {
+    background-image: url("banner.jpg");
+
+    /* Set a specific height */
+    height: 20vw;
+    width: 100%;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: 0px -80px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.tekstit {
+    width: 40%;
+    float:left
+}
+
+.kuva {
+    padding-top: 10px;
+    width: 60%;
+    height: inherit;
+    float: right;
+}
+
+.teksti {
+    color: black;
+    text-align: left;
+    display: table;
+    width: 90%;
+    font-size: 20px;
+
+    
+}
+
+#väliotsikko {
+    color: black;
+    text-align: left;
+}
+
+
+#trailerBox {
+    color: black;
+    text-align: left;
+}
+
+#trailerBox iframe{
+    width:80%;
+    height:300px;
+}
+
+.lista {
+    color: black;
+    text-align: center;
+    display: table; 
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+.media {
+    width: 10%;
+    text-align: center;
+    width: 100%;
+    max-width:900px;
+    margin:0 auto;
+}
+
+.latausjasysreq {
+    background-color: rgb(255, 194, 115);
+    color: black;
+    text-align: left;
+    display: flex;
+}
+
+.boksi {
+    text-align: center;
+    width: 100%;
+    max-width:900px;
+    margin:0 auto;
+}
+
+.lataa {
+    color: black;
+    text-align: left;
+    width: 25%;
+    padding: 5px;
+    float: left;
+
+}
+
+.sysreqs {
+    color: black;
+    width: 75%;
+    text-align: left;
+    margin: 0 auto;
+    float: right;
+    padding-bottom: 20px;
+
+}
+
+.footer {
+    background-color: rgb(199, 144, 73);
+    color: black;
+    text-align: left;
+    display: flex;
+}
+
+.alaBoksi {
+    text-align: center;
+    display: flex;
+    max-width:900px;
+    margin:0 auto;
+}
+
+
+
+@media screen and (max-width: 700px) {
+
+.tekstit {
+    float:none;
+    width: 100%;
+}
+
+.kuva {
+    float:none;
+    width: 100%;
+}
+.sysreqs {
+    width: 150%;
+    background-color: rgb(255, 194, 115);
+    padding-bottom: 20px;
+}
+
+.lataa {
+    width: 80%;
+    padding-bottom: 20px;
+    background-color: rgb(255, 194, 115);
+    padding-bottom: 20px;
+
+
+}
+
+
+
+}
